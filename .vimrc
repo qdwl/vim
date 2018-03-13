@@ -185,7 +185,7 @@ function! NERDTree_IsValid()
 	return 1
 endfunction
 
-noremap <f2> :NERDTreeFind<cr>
+noremap <f2> :NERDTreeToggle<cr>
 map <F9> :TagbarToggle<CR>
 "nnoremap <F4> :UndotreeToggle<cr>
 nnoremap <F4> :A<cr>
